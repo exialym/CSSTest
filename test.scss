@@ -1,0 +1,14 @@
+$blue: #3bbfce;
+
+$margin: 16px;
+
+
+
+#divFirst {
+  background-color: $blue;
+  height:200px;
+  width:200px;
+  a {
+    color: darken($blue, 9%);
+  }
+}
