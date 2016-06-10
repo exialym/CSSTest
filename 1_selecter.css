@@ -1,0 +1,26 @@
+#divFirst {
+  background-color: #3bbfce;
+  height: 500px;
+  width: 500px; }
+  #divFirst a:link {
+    color: #2ca2af; }
+  #divFirst a:visited {
+    color: gray; }
+  #divFirst a:hover {
+    color: red; }
+  #divFirst a:active {
+    color: yellow; }
+  #divFirst p:first-letter {
+    font-size: 40px; }
+  #divFirst p:first-line {
+    color: purple; }
+
+#divFirst:hover {
+  background-color: yellow; }
+
+body:after {
+  content: "The End.";
+  font-size: 40px;
+  color: blueviolet; }
+
+/*# sourceMappingURL=1_selecter.css.map */

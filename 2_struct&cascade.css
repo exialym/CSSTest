@@ -1,0 +1,33 @@
+h1, h2.section {
+  color: silver;
+  background: black !important; }
+
+h1 {
+  color: silver; }
+
+/* 0,0,0,1 */
+h1 {
+  background: black; }
+
+/* 0,0,0,1 */
+h2.section {
+  color: silver; }
+
+/* 0,0,1,1 */
+h2.section {
+  background: black; }
+
+/* 0,0,1,1 */
+#title {
+  color: mediumpurple;
+  background-color: #eee; }
+
+/* 0,1,0,0 */
+* {
+  color: gray; }
+
+h1#page-title {
+  color: black;
+  background-color: #cccccc !important; }
+
+/*# sourceMappingURL=2_struct&cascade.css.map */
