@@ -1,7 +1,9 @@
 #divSecond {
-  background-color: #2d672d; }
+  background-color: #2d672d;
+  color: #ac2925; }
   #divSecond h1 {
-    font-size: 24px; }
+    font-size: 24px;
+    color: inherit; }
   #divSecond h2 {
     font-size: 18px; }
   #divSecond p {
