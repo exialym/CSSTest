@@ -1,6 +1,8 @@
 #divThird {
   font-family: "Monaco";
-  font-weight: 500; }
+  font-weight: 500;
+  background-color: orange;
+  height: auto; }
   #divThird p:nth-child(1) {
     font-family: "Times";
     font-weight: bolder; }

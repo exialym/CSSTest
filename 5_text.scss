@@ -1,0 +1,29 @@
+#div4{
+  font-size: 20px;
+  //line-height:1em;
+  line-height:1;
+  vertical-align: super;
+  p{
+    text-indent: 1.5em;
+    text-align: center;
+    font-size: 30px;
+    //when div4's line-height is 1em, here we seem to inherit 1em. But actually, we inherit a computed value from div4 which is 20px
+    //when div4 line-height is 1, we inherit 1,and compute it here using self's font-size.
+    line-height:inherit;
+    word-spacing: 2em;
+    letter-spacing: 0.5em;
+    text-shadow: #2d672d 5px 5px 5px;
+  }
+  span{
+    vertical-align: bottom;
+    text-transform: capitalize;
+    span{
+      vertical-align: super;
+      text-decoration: line-through underline overline;
+    }
+    input{
+      vertical-align: middle;
+    }
+  }
+
+}

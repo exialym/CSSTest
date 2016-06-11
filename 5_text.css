@@ -1,0 +1,22 @@
+#div4 {
+  font-size: 20px;
+  line-height: 1;
+  vertical-align: super; }
+  #div4 p {
+    text-indent: 1.5em;
+    text-align: center;
+    font-size: 30px;
+    line-height: inherit;
+    word-spacing: 2em;
+    letter-spacing: 0.5em;
+    text-shadow: #2d672d 5px 5px 5px; }
+  #div4 span {
+    vertical-align: bottom;
+    text-transform: capitalize; }
+    #div4 span span {
+      vertical-align: super;
+      text-decoration: line-through underline overline; }
+    #div4 span input {
+      vertical-align: middle; }
+
+/*# sourceMappingURL=5_text.css.map */
