@@ -1,3 +1,20 @@
-
+#divThird {
+  font-family: "Monaco";
+  font-weight: 500; }
+  #divThird p:nth-child(1) {
+    font-family: "Times";
+    font-weight: bolder; }
+  #divThird p:nth-child(2) {
+    font-family: sans-serif;
+    font-weight: lighter; }
+  #divThird p:nth-child(3) {
+    font-family: "s","Monaco","Times",sans-serif; }
+  #divThird p:nth-child(4) {
+    font-family: "MarkerFelt"; }
+  #divThird p:nth-child(5) {
+    font-family: "menu"; }
+  #divThird p:nth-child(6) {
+    font-family: "Times";
+    font-variant: small-caps; }
 
 /*# sourceMappingURL=4_font.css.map */
