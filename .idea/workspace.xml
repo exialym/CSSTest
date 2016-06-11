@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5_text.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5_text.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_model.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4_font.css" afterPath="$PROJECT_DIR$/4_font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4_font.css.map" afterPath="$PROJECT_DIR$/4_font.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4_font.scss" afterPath="$PROJECT_DIR$/4_font.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6_model.css" afterPath="$PROJECT_DIR$/6_model.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6_model.css.map" afterPath="$PROJECT_DIR$/6_model.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6_model.scss" afterPath="$PROJECT_DIR$/6_model.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSSTest.html" afterPath="$PROJECT_DIR$/CSSTest.html" />
     </list>
     <ignored path="CSSTest.iws" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="CSSTest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSSTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="1007">
+              <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -94,8 +90,8 @@
       <file leaf-file-name="6_model.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6_model.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -127,8 +123,9 @@
         <option value="$PROJECT_DIR$/3_unit&amp;value.scss" />
         <option value="$PROJECT_DIR$/4_font.scss" />
         <option value="$PROJECT_DIR$/5_text.css" />
-        <option value="$PROJECT_DIR$/CSSTest.html" />
         <option value="$PROJECT_DIR$/5_text.scss" />
+        <option value="$PROJECT_DIR$/CSSTest.html" />
+        <option value="$PROJECT_DIR$/6_model.scss" />
       </list>
     </option>
   </component>
@@ -316,12 +313,12 @@
       <workItem from="1465285639277" duration="2219000" />
       <workItem from="1465549375492" duration="5498000" />
       <workItem from="1465613961375" duration="843000" />
-      <workItem from="1465616955234" duration="5666000" />
+      <workItem from="1465616955234" duration="7910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14226000" />
+    <option name="totallyTimeSpent" value="16470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-177" width="1920" height="1200" extended-state="0" />
@@ -556,14 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSSTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5_text.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -572,10 +561,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSSTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6_model.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>

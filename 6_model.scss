@@ -1,0 +1,16 @@
+#boxModel{
+  width:auto;
+  margin-left:100px;
+  margin-right:auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: palevioletred;
+  height:100px;
+  padding:0 20px;
+  border:1px solid #2d672d;
+  box-sizing: border-box;
+  overflow: hidden;
+  div{
+    margin:10px;
+  }
+}
