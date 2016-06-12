@@ -13,4 +13,11 @@
   #boxModel div {
     margin: 10px; }
 
+#boxModel-inline p {
+  font-size: 16px;
+  line-height: 16px; }
+  #boxModel-inline p strong {
+    font-size: 60px;
+    vertical-align: bottom; }
+
 /*# sourceMappingURL=6_model.css.map */
