@@ -15,7 +15,7 @@
   }
 }
 #boxModel-inline{
-  p{
+  p:nth-child(1){
     font-size: 16px;
     line-height: 16px;
     strong{
@@ -23,4 +23,35 @@
       vertical-align: bottom;
     }
   }
+  p:nth-child(2){
+    font-size: 14px;
+    line-height: 1em;
+    span {
+      font-size: 250%;
+      line-height: 1em;
+    }
+    a {
+      border: 5px solid blue;
+      //line-height: 2em;
+    }
+
+  }
+  //OR
+  //p:nth-child(2){
+  //  font-size: 14px;
+  //  line-height: 1;
+  //  span {
+  //    font-size: 250%;
+  //  }
+  //}
+  p:nth-child(3){
+    span{
+      border:1px solid red;
+      line-height:1;
+      padding:4px;
+      margin:4px;
+      background-color: rgba(255,1,1,0.5);
+    }
+  }
+
 }

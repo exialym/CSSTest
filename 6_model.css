@@ -13,11 +13,25 @@
   #boxModel div {
     margin: 10px; }
 
-#boxModel-inline p {
+#boxModel-inline p:nth-child(1) {
   font-size: 16px;
   line-height: 16px; }
-  #boxModel-inline p strong {
+  #boxModel-inline p:nth-child(1) strong {
     font-size: 60px;
     vertical-align: bottom; }
+#boxModel-inline p:nth-child(2) {
+  font-size: 14px;
+  line-height: 1em; }
+  #boxModel-inline p:nth-child(2) span {
+    font-size: 250%;
+    line-height: 1em; }
+  #boxModel-inline p:nth-child(2) a {
+    border: 5px solid blue; }
+#boxModel-inline p:nth-child(3) span {
+  border: 1px solid red;
+  line-height: 1;
+  padding: 4px;
+  margin: 4px;
+  background-color: rgba(255, 1, 1, 0.5); }
 
 /*# sourceMappingURL=6_model.css.map */
