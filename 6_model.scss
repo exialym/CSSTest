@@ -71,3 +71,26 @@
     }
   }
 }
+#boxModel-inline-block{
+  div {
+    margin: 1em 0;
+    border: 1px solid;
+  }
+  p {
+    border: 1px dotted;
+  }
+  div:nth-child(1) p {
+    display: block;
+    width: 6em;
+    text-align: center;
+  }
+  div:nth-child(2) p {
+    display: inline;
+    width: 6em;
+    text-align: center;}
+  div:nth-child(3) p {
+    display: inline-block;
+    width: 6em;
+    text-align: center;
+  }
+}
