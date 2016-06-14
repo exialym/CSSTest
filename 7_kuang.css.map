@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAG;EACD,OAAO,EAAC,CAAC",
+"mappings": "AAAA,MAAM;EACJ,MAAM,EAAC,IAAI;EACX,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAC,iBAAiB",
 "sources": ["7_kuang.scss"],
 "names": [],
 "file": "7_kuang.css"
