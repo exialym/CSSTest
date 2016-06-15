@@ -11,3 +11,31 @@
     float: right;
   }
 }
+#float1{
+  background-color: #1f7e9a;
+  color:yellowgreen;
+  //overflow: hidden;
+  //float:left;
+  div{
+    float:left;
+    width:150px;
+    height:200px;
+    margin-left: 30px;
+    margin-top:-10px;
+    margin-right:-10px;
+    background-color: #ac2925;
+  }
+}
+#float1 + h3 {
+  background-color: #b06d0f;
+  color: #2aabd2;
+}
+#float1 + h3 + span {
+  background-color: #b06d0f;
+  color: #2aabd2;
+  border: 2px dashed #ac2925;
+}
+#floatClear{
+  //clear: both;
+  margin-top:100px;
+}

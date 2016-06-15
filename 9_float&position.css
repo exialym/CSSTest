@@ -7,4 +7,28 @@
 #float p:nth-child(3) {
   float: right; }
 
+#float1 {
+  background-color: #1f7e9a;
+  color: yellowgreen; }
+  #float1 div {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: -10px;
+    margin-right: -10px;
+    background-color: #ac2925; }
+
+#float1 + h3 {
+  background-color: #b06d0f;
+  color: #2aabd2; }
+
+#float1 + h3 + span {
+  background-color: #b06d0f;
+  color: #2aabd2;
+  border: 2px dashed #ac2925; }
+
+#floatClear {
+  margin-top: 100px; }
+
 /*# sourceMappingURL=9_float&position.css.map */
