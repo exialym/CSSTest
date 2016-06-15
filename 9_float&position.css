@@ -1,0 +1,10 @@
+#float img {
+  float: left;
+  margin: 10px; }
+#float p {
+  width: 200px;
+  margin: 0; }
+#float p:nth-child(3) {
+  float: right; }
+
+/*# sourceMappingURL=9_float&position.css.map */
