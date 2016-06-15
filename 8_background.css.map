@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,IAAI;EACF,gBAAgB,EAAC,uBAAuB;EACxC,iBAAiB,EAAC,SAAS;EAC3B,mBAAmB,EAAC,MAAM;EAC1B,qBAAqB,EAAC,KAAK",
+"sources": ["8_background.scss"],
 "names": [],
 "file": "8_background.css"
 }

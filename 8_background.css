@@ -1,3 +1,7 @@
-
+body {
+  background-image: url(img/marker_red.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=8_background.css.map */
