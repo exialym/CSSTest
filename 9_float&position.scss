@@ -39,3 +39,19 @@
   //clear: both;
   margin-top:100px;
 }
+#position{
+  position: absolute;
+  right:0;
+  bottom:0;
+  height:200px;
+  width:200px;
+  background-color: #ff26f6;
+  div{
+    position:absolute;
+    top:0;
+    bottom:80%;
+    left:0;
+    width:20px;
+    background-color: #b06d0f;
+  }
+}
