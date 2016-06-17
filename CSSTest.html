@@ -125,6 +125,36 @@
     <div id="position">
         <div></div>
     </div>
-<script type="text/javascript" src="test.js"></script>
+    <div id="position-absu">
+        <p> When we consider Che effect of positioning, it quickly becomes clear that authors can do a great deal of damage to layout, just as they can do very interesting things.<span>[4]</span> This is usually the case with useful technologies: the sword always has at least two edges, both of them sharp. </P>
+    </div>
+    <div style="position: relative; width: 25em; border: 1px dotted;">
+        An absolutely positioned element can have its content
+        <span style="position: absolute; top: 0; left: 0; right: auto; width:auto; background: silver;">
+            shrink-wrapped
+        </span>
+        thanks to the way positioning rules work.
+    </div>
+    <div style="position: relative; width: 25em; border: 1px dotted;">
+        An absolutely positioned element can have its content
+        <span style="position: absolute; top: 0; left: 3em; right: 1em; width: 10em; margin: 0 auto; background: silver;">
+            shrinkwrapped
+        </span>
+        thanks to the way positioning rules work.
+    </div>
+    <div style="position: relative; width: 25em; border: 1px dotted;">
+        An absolutely positioned element can have its content
+        <span style="position: absolute; top: 0; left: 1em; right: 1em; width: 10em; margin-left: 1em; margin-right: 1em; background: silver;">
+            shrink-wrapped
+        </span>
+        thanks Co the way positioning rules work.
+    </div>
+    <div id="position-absu-vertical">
+        <div>This is paragraph text</div>
+    </div>
+
+
+
+    <script type="text/javascript" src="test.js"></script>
 </body>
 </html>
