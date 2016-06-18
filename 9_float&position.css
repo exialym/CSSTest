@@ -57,7 +57,8 @@
 #position-absu-vertical {
   height: 200px;
   position: relative;
-  background-color: #000; }
+  background-color: #000;
+  z-index: 10; }
   #position-absu-vertical div {
     position: absolute;
     top: 0;
@@ -67,6 +68,7 @@
     margin: auto auto;
     height: 50px;
     width: 50px;
-    background-color: #fff; }
+    background-color: #fff;
+    z-index: -1; }
 
 /*# sourceMappingURL=9_float&position.css.map */

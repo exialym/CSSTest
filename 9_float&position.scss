@@ -68,6 +68,7 @@
   height:200px;
   position: relative;
   background-color: #000;
+  z-index:10;
   div{
     position: absolute;
     top:0;
@@ -78,5 +79,6 @@
     height: 50px;
     width:50px;
     background-color: #fff;
+    z-index:-1;
   }
 }
