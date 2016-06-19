@@ -1,0 +1,15 @@
+#table{
+  table {
+    //border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    height:100px;
+    td {
+      border: 3px double black;
+      padding: 3px;
+      empty-cells: show;//hide
+    }
+  }
+
+
+}

@@ -1,0 +1,10 @@
+#table table {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  height: 100px; }
+  #table table td {
+    border: 3px double black;
+    padding: 3px;
+    empty-cells: show; }
+
+/*# sourceMappingURL=10_table.css.map */
