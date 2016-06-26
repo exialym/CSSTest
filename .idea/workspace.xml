@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/secret/3_Shapes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/secret/3_Shapes.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/secret/3_Shapes.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secertMain.html" afterPath="$PROJECT_DIR$/secertMain.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/1_coding_tips.css" afterPath="$PROJECT_DIR$/secret/1_coding_tips.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/1_coding_tips.css.map" afterPath="$PROJECT_DIR$/secret/1_coding_tips.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/1_coding_tips.scss" afterPath="$PROJECT_DIR$/secret/1_coding_tips.scss" />
     </list>
     <ignored path="CSSTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -369,7 +361,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077738516" sideWeight="0.17008953" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.077738516" sideWeight="0.82991046" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.077738516" sideWeight="0.82991046" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18957347" sideWeight="0.1532567" order="4" side_tool="true" content_ui="tabs" />
