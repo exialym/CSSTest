@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secertMain.html" afterPath="$PROJECT_DIR$/secertMain.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/5_typography.css" afterPath="$PROJECT_DIR$/secret/5_typography.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/5_typography.css.map" afterPath="$PROJECT_DIR$/secret/5_typography.css.map" />
@@ -33,17 +34,9 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secret/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <marker date="1467378374000" expanded="true" signature="0:41" ph="/** Created by exialym on 16/6/22. ...*/" />
-                <marker date="1467378374000" expanded="true" signature="73:236" ph="{...}" />
-                <marker date="1467378374000" expanded="true" signature="237:295" ph="/**...*/" />
-                <marker date="1467378374000" expanded="true" signature="328:559" ph="{...}" />
-                <marker date="1467378374000" expanded="true" signature="588:650" ph="/**...*/" />
-                <marker date="1467378374000" expanded="true" signature="691:961" ph="{...}" />
-                <marker date="1467378374000" expanded="true" signature="845:905" ph="{...}" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="29" column="35" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/secertMain.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="794">
-              <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -61,8 +54,8 @@
       <file leaf-file-name="5_typography.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/secret/5_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="682">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -109,10 +102,10 @@
         <option value="$PROJECT_DIR$/secret/commen.js" />
         <option value="$PROJECT_DIR$/secret/1_coding_tips.css" />
         <option value="$PROJECT_DIR$/secret/2_background&amp;border.scss" />
-        <option value="$PROJECT_DIR$/secret/common.js" />
         <option value="$PROJECT_DIR$/secret/4_visual_effect.scss" />
         <option value="$PROJECT_DIR$/secret/1_coding_tips.scss" />
         <option value="$PROJECT_DIR$/secret/3_Shapes.scss" />
+        <option value="$PROJECT_DIR$/secret/common.js" />
         <option value="$PROJECT_DIR$/secertMain.html" />
         <option value="$PROJECT_DIR$/secret/5_typography.scss" />
       </list>
@@ -362,12 +355,12 @@
       <workItem from="1467163483637" duration="9878000" />
       <workItem from="1467248850504" duration="11809000" />
       <workItem from="1467335664911" duration="9054000" />
-      <workItem from="1467435974638" duration="7457000" />
+      <workItem from="1467435974638" duration="8496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116176000" />
+    <option name="totallyTimeSpent" value="117215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -697,22 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secret/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <marker date="1467378374000" expanded="true" signature="0:41" ph="/** Created by exialym on 16/6/22. ...*/" />
-            <marker date="1467378374000" expanded="true" signature="73:236" ph="{...}" />
-            <marker date="1467378374000" expanded="true" signature="237:295" ph="/**...*/" />
-            <marker date="1467378374000" expanded="true" signature="328:559" ph="{...}" />
-            <marker date="1467378374000" expanded="true" signature="588:650" ph="/**...*/" />
-            <marker date="1467378374000" expanded="true" signature="691:961" ph="{...}" />
-            <marker date="1467378374000" expanded="true" signature="845:905" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/secret/4_visual_effect.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -737,18 +714,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/secret/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="29" column="35" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/secertMain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
-          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secret/5_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="682">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>
