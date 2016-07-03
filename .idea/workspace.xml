@@ -11,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/5_typography.css" afterPath="$PROJECT_DIR$/secret/5_typography.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/5_typography.css.map" afterPath="$PROJECT_DIR$/secret/5_typography.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/5_typography.scss" afterPath="$PROJECT_DIR$/secret/5_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/secret/common.js" afterPath="$PROJECT_DIR$/secret/common.js" />
     </list>
     <ignored path="CSSTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secret/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="35" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="979">
+              <caret line="74" column="3" selection-start-line="57" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -44,8 +45,8 @@
       <file leaf-file-name="secertMain.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/secertMain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="838">
-              <caret line="99" column="67" selection-start-line="99" selection-start-column="67" selection-end-line="99" selection-end-column="67" />
+            <state relative-caret-position="860">
+              <caret line="122" column="10" selection-start-line="120" selection-start-column="4" selection-end-line="122" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -54,8 +55,18 @@
       <file leaf-file-name="5_typography.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/secret/5_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="66" selection-end-column="3" />
+            <state relative-caret-position="794">
+              <caret line="126" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="126" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_visual_effect.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secret/4_visual_effect.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-121">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -105,8 +116,8 @@
         <option value="$PROJECT_DIR$/secret/4_visual_effect.scss" />
         <option value="$PROJECT_DIR$/secret/1_coding_tips.scss" />
         <option value="$PROJECT_DIR$/secret/3_Shapes.scss" />
-        <option value="$PROJECT_DIR$/secret/common.js" />
         <option value="$PROJECT_DIR$/secertMain.html" />
+        <option value="$PROJECT_DIR$/secret/common.js" />
         <option value="$PROJECT_DIR$/secret/5_typography.scss" />
       </list>
     </option>
@@ -356,12 +367,12 @@
       <workItem from="1467248850504" duration="11809000" />
       <workItem from="1467335664911" duration="9054000" />
       <workItem from="1467435974638" duration="9178000" />
-      <workItem from="1467520007099" duration="3548000" />
+      <workItem from="1467520007099" duration="6892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121445000" />
+    <option name="totallyTimeSpent" value="124789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -691,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secret/4_visual_effect.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/secret/1_coding_tips.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -713,26 +716,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/secret/common.js">
+    <entry file="file://$PROJECT_DIR$/secret/4_visual_effect.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="35" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="-121">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secertMain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="99" column="67" selection-start-line="99" selection-start-column="67" selection-end-line="99" selection-end-column="67" />
+        <state relative-caret-position="860">
+          <caret line="122" column="10" selection-start-line="120" selection-start-column="4" selection-end-line="122" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secret/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="979">
+          <caret line="74" column="3" selection-start-line="57" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/secret/5_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="66" selection-end-column="3" />
+        <state relative-caret-position="794">
+          <caret line="126" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="126" selection-end-column="1" />
           <folding />
         </state>
       </provider>

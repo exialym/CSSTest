@@ -98,6 +98,29 @@
     <div id="ampersands">HTML & CSS</div>
     <p id="underline">“The only way to <a>get rid of a temptation is to yield to it. Resist it, and your soul grows </a>sick with <span>longing for the things it has forbidden to itself, with desire for what its monstrous laws have made </span>monstrous and unlawful.”
         — <a class="error"> Oscar Wilde, The Picture of Dorian Gray</a></p>
+    <div id="letterpress">a lighter shadow at the bottom (or a darker one at the top) creates the illusion that an object is “carved in” the main surface. Similarly, a darker shadow at the bottom (or a lighter one at the top), creates the illusion that an object is extruded from the main surface. The reason this works is that we usu- ally assume that the light source is above us, so an extruded object would create a shadow underneath it, and an embossed object would be lit at the bottom.</div>
+    <div id="stroked">CSS</div>
+    <h1 class="strokedSVG">
+        <svg width="2em" height="1.2em">
+            <use xlink:href="#css" />
+            <text id="css" y="1em">CSS</text>
+        </svg>
+    </h1>
+    <a id="glowing">CSS</a>
+    <div id="extruded">CSS</div>
+    <div id="text-retro">CSS</div>
+    <div class="circular">
+        <svg viewBox="0 0 100 100">
+            <path d="M 0,50 a 50,50 0 1,1 0,1 z"
+                  id="circle" />
+            <text><textPath xlink:href="#circle">
+                circular reasoning works because
+            </textPath></text>
+        </svg>
+    </div>
+    <div class="circularJS">
+        circular reasoning works because
+    </div>
     <script type="text/javascript" src="secret/common.js"></script>
 </body>
 </html>
