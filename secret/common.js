@@ -73,4 +73,10 @@ $$('.circularJS').forEach(function(el) {
     el.textContent = '';
     el.appendChild(svg);
 });
+$$("#blur-pop").forEach(function(el) {
+    el.onclick = function () {
+        $$("main")[0].className = "de-emphasized";
+        $$(".model")[0].style.display = "block";
+    }
+});
 
