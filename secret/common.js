@@ -79,4 +79,6 @@ $$("#blur-pop").forEach(function(el) {
         $$(".model")[0].style.display = "block";
     }
 });
-
+$$(".image-slider-range input")[0].oninput = function() {
+    $$(".image-slider-range>div")[0].style.width = this.value + '%';
+};
