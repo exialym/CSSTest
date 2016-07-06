@@ -179,7 +179,30 @@
         <div id="footer">
                 背景铺满，内容有最大宽度并居中，其实一个元素就能实现，利用calc（）
         </div>
-
+        <div class="vertical1">
+            <div>
+                Unknown stuff to be centered.
+            </div>
+        </div>
+        <div class="vertical2">
+            <div class="centered">
+                <p>If we set up a "ghost" element inside the parent that is 100% height, then we vertical-align: middle both that and the element to be centered, we get the same effect.</p>
+            </div>
+        </div>
+        <div class="vertical3">
+            <div class="centered">
+                <p>之前绝对定位的问题是使用了与子元素长宽相关的外边距值，这个值如果使用百分比的话是相对父元素来说的，如果我们可以找到相对子元素本身移动50%的办法就好了。
+                    transform正好就是这样。</p>
+            </div>
+        </div>
+        <div class="vertical4">
+            <div class="centered">
+                <p>终极方法：flex</p>
+            </div>
+        </div>
+        <div class="vertical5">
+            终极方法：flex——居中匿名text
+        </div>
     </main>
     <div class="model">啊哈哈哈哈哈哈</div>
     <script type="text/javascript" src="secret/common.js"></script>
