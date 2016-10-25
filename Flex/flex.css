@@ -1,0 +1,22 @@
+#align-content-test {
+  display: -webkit-flex;
+  display: flex;
+  padding: 20px;
+  background-color: #1f7e9a;
+  height: 300px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center; }
+  #align-content-test div {
+    background-color: #2d672d;
+    border: 2px solid chartreuse;
+    flex-grow: 2;
+    height: 20px; }
+  #align-content-test .high {
+    height: 40px;
+    flex-basis: 100px; }
+  #align-content-test .special {
+    align-self: flex-start; }
+
+/*# sourceMappingURL=flex.css.map */

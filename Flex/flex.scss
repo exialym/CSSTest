@@ -1,0 +1,26 @@
+#align-content-test{
+  display: -webkit-flex;
+  display: flex;
+  padding:20px;
+  background-color: #1f7e9a;
+  height:300px;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  align-content:flex-end;
+  align-items:center;
+  div {
+    background-color: #2d672d;
+    border:2px solid chartreuse;
+    flex-grow:2;
+    height:20px;
+    //width:100px;
+  }
+  .high{
+    height:40px;
+    //flex-grow:0;
+    flex-basis: 100px;
+  }
+  .special{
+    align-self: flex-start;
+  }
+}
