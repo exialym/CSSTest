@@ -1,4 +1,4 @@
-#align-content-test{
+#simple-test{
   display: -webkit-flex;
   display: flex;
   padding:20px;
@@ -22,5 +22,116 @@
   }
   .special{
     align-self: flex-start;
+  }
+}
+#touzi{
+  display: flex;
+  background-color: black;
+  >div{
+    display: flex;
+    width:104px;
+    height:104px;
+    margin:16px;
+    padding:4px;
+    background-color: #e7e7e7;
+    box-shadow:
+            inset 0 5px white,
+            inset 0 -5px #bbb,
+            inset 5px 0 #d7d7d7,
+            inset -5px 0 #d7d7d7;
+    border-radius: 10%;
+    .point{
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin: 4px;
+      background-color: #333;
+      box-shadow: inset 0 3px #111, inset 0 -3px #555;
+    }
+  }
+  .one-container{
+    //top left
+
+    //top center
+    justify-content:center;
+
+    //top right
+    justify-content:flex-end;
+
+    //center left
+    align-items:center;
+
+    //center center
+    align-items:center;
+    justify-content:center;
+
+    //center right
+    //align-items:center;
+    //justify-content:flex-end;
+
+    //bottom left
+    //align-items:flex-end;
+
+    //bottom center
+    //align-items:flex-end;
+    //justify-content:center;
+
+    //bottom right
+    //align-items:flex-end;
+    //justify-content:flex-end;
+  }
+  .two-container{
+    //row two sperad
+    justify-content:space-between;
+    //column
+    flex-direction: column;
+    //column center
+    //align-items: center;
+    .point:nth-child(2) {
+      align-self: flex-end;
+    }
+  }
+  .third-container{
+    justify-content:space-between;
+    .point:nth-child(2) {
+      align-self: center;
+    }
+    .point:nth-child(3) {
+      align-self: flex-end;
+    }
+  }
+  .four-container{
+    justify-content:space-between;
+    align-content: space-between;
+    flex-wrap:wrap;
+    .point:nth-child(2n+1) {
+      margin-right:40px;
+    }
+  }
+  .four-container-other{
+    align-content:space-between;
+    flex-wrap: wrap;
+    .row{
+      width:100%;
+      display: flex;
+      justify-content:space-between;
+    }
+  }
+  .five-container{
+    align-content:space-between;
+    flex-wrap: wrap;
+    .row{
+      width:100%;
+      display: flex;
+      justify-content:space-between;
+    }
+    .row:nth-child(2) {
+      justify-content: center;
+    }
+  }
+  .six-container{
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content:space-between;
   }
 }

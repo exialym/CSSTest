@@ -1,4 +1,4 @@
-#align-content-test {
+#simple-test {
   display: -webkit-flex;
   display: flex;
   padding: 20px;
@@ -8,15 +8,78 @@
   flex-wrap: wrap;
   align-content: flex-end;
   align-items: center; }
-  #align-content-test div {
+  #simple-test div {
     background-color: #2d672d;
     border: 2px solid chartreuse;
     flex-grow: 2;
     height: 20px; }
-  #align-content-test .high {
+  #simple-test .high {
     height: 40px;
     flex-basis: 100px; }
-  #align-content-test .special {
+  #simple-test .special {
     align-self: flex-start; }
+
+#touzi {
+  display: flex;
+  background-color: black; }
+  #touzi > div {
+    display: flex;
+    width: 104px;
+    height: 104px;
+    margin: 16px;
+    padding: 4px;
+    background-color: #e7e7e7;
+    box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
+    border-radius: 10%; }
+    #touzi > div .point {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin: 4px;
+      background-color: #333;
+      box-shadow: inset 0 3px #111, inset 0 -3px #555; }
+  #touzi .one-container {
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: center;
+    justify-content: center; }
+  #touzi .two-container {
+    justify-content: space-between;
+    flex-direction: column; }
+    #touzi .two-container .point:nth-child(2) {
+      align-self: flex-end; }
+  #touzi .third-container {
+    justify-content: space-between; }
+    #touzi .third-container .point:nth-child(2) {
+      align-self: center; }
+    #touzi .third-container .point:nth-child(3) {
+      align-self: flex-end; }
+  #touzi .four-container {
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap; }
+    #touzi .four-container .point:nth-child(2n+1) {
+      margin-right: 40px; }
+  #touzi .four-container-other {
+    align-content: space-between;
+    flex-wrap: wrap; }
+    #touzi .four-container-other .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+  #touzi .five-container {
+    align-content: space-between;
+    flex-wrap: wrap; }
+    #touzi .five-container .row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+    #touzi .five-container .row:nth-child(2) {
+      justify-content: center; }
+  #touzi .six-container {
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between; }
 
 /*# sourceMappingURL=flex.css.map */
