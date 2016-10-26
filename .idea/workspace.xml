@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/secret/4_visual_effect.scss" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/FlexTest.html" afterPath="$PROJECT_DIR$/Flex/FlexTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/flex.css" afterPath="$PROJECT_DIR$/Flex/flex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/flex.css.map" afterPath="$PROJECT_DIR$/Flex/flex.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/flex.scss" afterPath="$PROJECT_DIR$/Flex/flex.scss" />
-    </list>
+    <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="" />
     <ignored path="CSSTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -310,12 +304,12 @@
       <workItem from="1467940671937" duration="11612000" />
       <workItem from="1477404950735" duration="3002000" />
       <workItem from="1477444585437" duration="8991000" />
-      <workItem from="1477487214898" duration="5171000" />
+      <workItem from="1477487214898" duration="5214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197379000" />
+    <option name="totallyTimeSpent" value="197422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -325,7 +319,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082969435" sideWeight="0.22083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.082932696" sideWeight="0.77916664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082932696" sideWeight="0.77916664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18630952" sideWeight="0.24880952" order="4" side_tool="true" content_ui="tabs" />
