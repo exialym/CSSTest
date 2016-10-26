@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 #simple-test {
   display: -webkit-flex;
   display: flex;
@@ -21,6 +24,7 @@
 
 #touzi {
   display: flex;
+  flex-wrap: wrap;
   background-color: black; }
   #touzi > div {
     display: flex;
@@ -60,7 +64,7 @@
     align-content: space-between;
     flex-wrap: wrap; }
     #touzi .four-container .point:nth-child(2n+1) {
-      margin-right: 40px; }
+      margin-right: 30px; }
   #touzi .four-container-other {
     align-content: space-between;
     flex-wrap: wrap; }
@@ -81,5 +85,27 @@
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between; }
+
+#grid {
+  background-color: #8c99a6;
+  padding: 10px; }
+  #grid .row {
+    display: flex;
+    flex-wrap: nowrap; }
+    #grid .row .cell {
+      padding: 10px;
+      text-align: center;
+      flex: 1;
+      color: white;
+      display: flex; }
+      #grid .row .cell div {
+        background-color: #014c8c;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%; }
+    #grid .row .c-100 {
+      flex: 0 0 100%; }
+    #grid .row .c-50 {
+      flex: 0 0 50%; }
 
 /*# sourceMappingURL=flex.css.map */
