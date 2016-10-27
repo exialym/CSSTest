@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="464ad742-3dba-47f5-a3d7-b2fba89f6ec6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/FlexTest.html" afterPath="$PROJECT_DIR$/Flex/FlexTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/flex.css" afterPath="$PROJECT_DIR$/Flex/flex.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flex/flex.css.map" afterPath="$PROJECT_DIR$/Flex/flex.css.map" />
@@ -30,31 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FlexTest.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FlexTest.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flex/FlexTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="207" column="14" selection-start-line="190" selection-start-column="8" selection-end-line="207" selection-end-column="14" />
+            <state relative-caret-position="546">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flex.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="flex.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flex/flex.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="263" column="3" selection-start-line="238" selection-start-column="2" selection-end-line="263" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HolyGrail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flex/HolyGrail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="438">
+              <caret line="157" column="11" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -63,8 +54,8 @@
       <file leaf-file-name="flex.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flex/flex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state relative-caret-position="606">
+              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,8 +116,8 @@
         <option value="$PROJECT_DIR$/Flex/secertMain.html" />
         <option value="$PROJECT_DIR$/Flex/flex.css" />
         <option value="$PROJECT_DIR$/Flex/HolyGrail.html" />
-        <option value="$PROJECT_DIR$/Flex/FlexTest.html" />
         <option value="$PROJECT_DIR$/Flex/flex.scss" />
+        <option value="$PROJECT_DIR$/Flex/FlexTest.html" />
       </list>
     </option>
   </component>
@@ -197,7 +188,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -317,12 +307,12 @@
       <workItem from="1477404950735" duration="3002000" />
       <workItem from="1477444585437" duration="8991000" />
       <workItem from="1477487214898" duration="5214000" />
-      <workItem from="1477531088643" duration="13549000" />
+      <workItem from="1477531088643" duration="16224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210971000" />
+    <option name="totallyTimeSpent" value="213646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -332,7 +322,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082969435" sideWeight="0.22083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08858058" sideWeight="0.77916664" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094983995" sideWeight="0.77916664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18630952" sideWeight="0.24880952" order="4" side_tool="true" content_ui="tabs" />
@@ -673,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flex/flex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flex/HolyGrail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -689,18 +671,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flex/FlexTest.html">
+    <entry file="file://$PROJECT_DIR$/Flex/flex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="207" column="14" selection-start-line="190" selection-start-column="8" selection-end-line="207" selection-end-column="14" />
+        <state relative-caret-position="606">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flex/flex.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="263" column="3" selection-start-line="238" selection-start-column="2" selection-end-line="263" selection-end-column="3" />
+        <state relative-caret-position="438">
+          <caret line="157" column="11" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flex/FlexTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
           <folding />
         </state>
       </provider>

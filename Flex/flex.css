@@ -86,38 +86,38 @@
     align-content: space-between;
     justify-content: space-between; }
 
-#grid {
+.grid {
   background-color: #3bbfce;
   padding: 1em; }
-  #grid .row {
+  .grid .row {
     display: flex;
     flex-wrap: nowrap;
     margin: -1em 0 1em -1em; }
-    #grid .row .cell {
+    .grid .row .cell {
       padding: 1em 0 0 1em;
       text-align: center;
       flex: 1;
       color: white;
       display: flex; }
-      #grid .row .cell > div {
+      .grid .row .cell .item {
         background-color: rgba(147, 128, 108, 0.2);
         border-radius: 4px;
         padding: .8em 1em 0;
         width: 100%; }
-        #grid .row .cell > div:after {
+        .grid .row .cell .item:after {
           content: '\00a0';
           display: block;
           margin-top: 1em;
           height: 0;
           visibility: hidden; }
-    #grid .row .c-100 {
+    .grid .row .c-100 {
       flex: 0 0 100%; }
-    #grid .row .c-50 {
+    .grid .row .c-50 {
       flex: 0 0 50%; }
-  #grid .row.responsive {
+  .grid .row.responsive {
     flex-wrap: wrap; }
     @media all and (max-width: 768px) {
-      #grid .row.responsive .cell {
+      .grid .row.responsive .cell {
         flex: 0 0 100%; } }
 
 .HolyGrail {
@@ -180,5 +180,22 @@
     color: #666;
     font: inherit;
     font-weight: 400; }
+
+.hang-layout {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white; }
+  .hang-layout .media {
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-start;
+    padding: 10px;
+    text-align: left;
+    color: #2b2d2f; }
+    .hang-layout .media .media-figure {
+      margin-right: 1em;
+      width: 50px; }
+    .hang-layout .media .media-body {
+      flex: 1; }
 
 /*# sourceMappingURL=flex.css.map */

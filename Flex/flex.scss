@@ -139,7 +139,7 @@
     justify-content:space-between;
   }
 }
-#grid{
+.grid{
   background-color: #3bbfce;
   padding:1em;
   .row{
@@ -155,7 +155,7 @@
       //flex-shrink: 1;
       color:white;
       display: flex;
-      >div{
+      .item{
         background-color: hsla(31,15%,50%,.2);
         border-radius: 4px;
         padding: .8em 1em 0;
@@ -261,5 +261,25 @@
     color: #666;
     font: inherit;
     font-weight: 400;
+  }
+}
+.hang-layout{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  .media{
+    display: flex;
+    flex-basis: 50%;
+    align-items: flex-start;
+    padding:10px;
+    text-align: left;
+    color: #2b2d2f;
+    .media-figure {
+      margin-right: 1em;
+      width:50px;
+    }
+    .media-body {
+      flex: 1;
+    }
   }
 }
