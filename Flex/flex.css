@@ -159,4 +159,26 @@
     .HolyGrail .HolyGrail-content {
       flex: auto; } }
 
+#input-addon {
+  width: 500px; }
+  #input-addon .InputAddOn {
+    margin: 1em;
+    display: flex; }
+  #input-addon .InputAddOn-field:first-child, #input-addon .InputAddOn-item:first-child {
+    border-radius: 2px 0 0 2px; }
+  #input-addon .InputAddOn-field:not(:last-child), #input-addon .InputAddOn-item:not(:last-child) {
+    border-right: 0; }
+  #input-addon .InputAddOn-field:last-child, #input-addon .InputAddOn-item:last-child {
+    border-radius: 0 2px 2px 0; }
+  #input-addon .InputAddOn-field, #input-addon .InputAddOn-item {
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: .5em .75em; }
+  #input-addon .InputAddOn-field {
+    flex: 1; }
+  #input-addon .InputAddOn-item {
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666;
+    font: inherit;
+    font-weight: 400; }
+
 /*# sourceMappingURL=flex.css.map */

@@ -234,3 +234,32 @@
     }
   }
 }
+#input-addon{
+  width:500px;
+  .InputAddOn {
+    margin:1em;
+    display: flex;
+  }
+  .InputAddOn-field:first-child, .InputAddOn-item:first-child {
+    border-radius: 2px 0 0 2px;
+  }
+  .InputAddOn-field:not(:last-child), .InputAddOn-item:not(:last-child) {
+    border-right: 0;
+  }
+  .InputAddOn-field:last-child, .InputAddOn-item:last-child {
+    border-radius: 0 2px 2px 0;
+  }
+  .InputAddOn-field, .InputAddOn-item {
+    border: 1px solid hsla(31,15%,50%,.25);
+    padding: .5em .75em;
+  }
+  .InputAddOn-field {
+    flex: 1;
+  }
+  .InputAddOn-item {
+    background-color: hsla(31,15%,50%,.1);
+    color: #666;
+    font: inherit;
+    font-weight: 400;
+  }
+}
