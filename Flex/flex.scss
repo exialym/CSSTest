@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: "Monaco", "Times", sans-serif;
 }
 #simple-test{
   display: -webkit-flex;
@@ -290,5 +291,21 @@
     border: 2px solid red;
     padding:2em;
     flex: 0 0 25%;
+  }
+}
+.vertical{
+  background-color: hsla(31,15%,50%,.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:1em;
+  min-height: 900px;
+  .item{
+    background-color: hsla(31,15%,50%,.1);
+    max-width:50%;
+    padding:1em;
+    margin: 1em;
+    border-radius: 4px;
   }
 }
