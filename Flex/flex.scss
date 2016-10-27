@@ -140,19 +140,14 @@
   }
 }
 #grid{
-  background-color: #8c99a6;
-  padding:10px;
+  background-color: #3bbfce;
+  padding:1em;
   .row{
     display: flex;
     flex-wrap: nowrap;
+    margin: -1em 0 1em -1em;
     .cell{
-      div{
-        background-color: #014c8c;
-        border-radius: 5px;
-        padding:10px;
-        width:100%;
-      }
-      padding:10px;
+      padding: 1em 0 0 1em;
       text-align: center;
       flex: 1;
       //flex-basis: 0px;
@@ -160,12 +155,33 @@
       //flex-shrink: 1;
       color:white;
       display: flex;
+      >div{
+        background-color: hsla(31,15%,50%,.2);
+        border-radius: 4px;
+        padding: .8em 1em 0;
+        width:100%;
+        &:after {
+          content: '\00a0';
+          display: block;
+          margin-top: 1em;
+          height: 0;
+          visibility: hidden;
+        }
+      }
     }
     .c-100{
       flex: 0 0 100%;
     }
     .c-50{
       flex: 0 0 50%;
+    }
+  }
+  .row.responsive{
+    flex-wrap: wrap;
+    @media all and (max-width: 768px)  {
+      .cell {
+        flex:0 0 100%;
+      }
     }
   }
 }

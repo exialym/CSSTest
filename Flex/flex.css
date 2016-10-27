@@ -87,25 +87,37 @@
     justify-content: space-between; }
 
 #grid {
-  background-color: #8c99a6;
-  padding: 10px; }
+  background-color: #3bbfce;
+  padding: 1em; }
   #grid .row {
     display: flex;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    margin: -1em 0 1em -1em; }
     #grid .row .cell {
-      padding: 10px;
+      padding: 1em 0 0 1em;
       text-align: center;
       flex: 1;
       color: white;
       display: flex; }
-      #grid .row .cell div {
-        background-color: #014c8c;
-        border-radius: 5px;
-        padding: 10px;
+      #grid .row .cell > div {
+        background-color: rgba(147, 128, 108, 0.2);
+        border-radius: 4px;
+        padding: .8em 1em 0;
         width: 100%; }
+        #grid .row .cell > div:after {
+          content: '\00a0';
+          display: block;
+          margin-top: 1em;
+          height: 0;
+          visibility: hidden; }
     #grid .row .c-100 {
       flex: 0 0 100%; }
     #grid .row .c-50 {
       flex: 0 0 50%; }
+  #grid .row.responsive {
+    flex-wrap: wrap; }
+    @media all and (max-width: 768px) {
+      #grid .row.responsive .cell {
+        flex: 0 0 100%; } }
 
 /*# sourceMappingURL=flex.css.map */
