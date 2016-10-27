@@ -185,3 +185,52 @@
     }
   }
 }
+.HolyGrail{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  //height:100%;
+  margin: 0;
+  header,
+  footer {
+    flex: none;
+    color:white;
+    padding: 1em;
+    text-align: center;
+  }
+  header{
+    background-color: #1f7e9a;
+  }
+  footer{
+    background-color: #55595c;
+  }
+  .HolyGrail-body {
+    display: flex;
+    flex: 1 0 auto; /* 2 */
+    .HolyGrail-content {
+      flex: 1;
+    }
+    .HolyGrail-nav, .HolyGrail-ads {
+      /* two aside fix to 12em */
+      flex: 0 0 12em;
+      padding: 1em;
+      border-radius: 3px;
+      background: rgba(147, 128, 108, 0.1);
+    }
+    .HolyGrail-nav {
+      /* nav left */
+      order: -1;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .HolyGrail-body {
+      flex-direction: column;
+      flex: 1;
+    }
+    .HolyGrail-nav,
+    .HolyGrail-ads,
+    .HolyGrail-content {
+      flex: auto;
+    }
+  }
+}

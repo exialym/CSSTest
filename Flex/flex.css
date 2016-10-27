@@ -120,4 +120,43 @@
       #grid .row.responsive .cell {
         flex: 0 0 100%; } }
 
+.HolyGrail {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; }
+  .HolyGrail header,
+  .HolyGrail footer {
+    flex: none;
+    color: white;
+    padding: 1em;
+    text-align: center; }
+  .HolyGrail header {
+    background-color: #1f7e9a; }
+  .HolyGrail footer {
+    background-color: #55595c; }
+  .HolyGrail .HolyGrail-body {
+    display: flex;
+    flex: 1 0 auto;
+    /* 2 */ }
+    .HolyGrail .HolyGrail-body .HolyGrail-content {
+      flex: 1; }
+    .HolyGrail .HolyGrail-body .HolyGrail-nav, .HolyGrail .HolyGrail-body .HolyGrail-ads {
+      /* two aside fix to 12em */
+      flex: 0 0 12em;
+      padding: 1em;
+      border-radius: 3px;
+      background: rgba(147, 128, 108, 0.1); }
+    .HolyGrail .HolyGrail-body .HolyGrail-nav {
+      /* nav left */
+      order: -1; }
+  @media all and (max-width: 768px) {
+    .HolyGrail .HolyGrail-body {
+      flex-direction: column;
+      flex: 1; }
+    .HolyGrail .HolyGrail-nav,
+    .HolyGrail .HolyGrail-ads,
+    .HolyGrail .HolyGrail-content {
+      flex: auto; } }
+
 /*# sourceMappingURL=flex.css.map */

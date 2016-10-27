@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HolyGrail</title>
+    <link type="text/css" rel="stylesheet" href="flex.css">
+</head>
+<body class="HolyGrail">
+    <header>this is header</header>
+    <div class="HolyGrail-body">
+        <main class="HolyGrail-content">content</main>
+        <nav class="HolyGrail-nav">
+            nav
+            <button id="long" onclick="long()">Hit Me</button>
+        </nav>
+        <aside class="HolyGrail-ads">ads</aside>
+    </div>
+    <footer>footer is fixed to bottom</footer>
+    <script type="application/javascript">
+        var flag = true;
+        function long() {
+            if (flag) {
+                document.getElementsByClassName("HolyGrail-nav")[0].style.height = "2000px";
+            } else {
+                document.getElementsByClassName("HolyGrail-nav")[0].style.height = "auto";
+            }
+            flag = !flag;
+        }
+    </script>
+</body>
+</html>
