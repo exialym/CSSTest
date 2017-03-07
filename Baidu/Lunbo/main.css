@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+    position: absolute;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #2aabd2;
+}
+.pic {
+    float: left;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
