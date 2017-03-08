@@ -8,11 +8,31 @@
     background-color: rgba(0,0,0,0.5);
 }
 .modal{
+    position:absolute;
     width:50%;
-    height:150px;
     background-color: #fff;
-    border-radius: 10px;
-    border:1px solid #01549b;
-    padding: 10px;
-    margin: 100px auto;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
 }
+.modal-title {
+    overflow: hidden;
+    padding: 5px 10px;
+    background-color: #2aabd2;
+    color:white;
+}
+.modal-title .title{
+    float:left;
+    margin:0;
+}
+.modal-title .modal-close{
+    float:right;
+}
+.modal-body {
+    padding: 5px 10px;
+}
+.modal-footer {
+    text-align: center;
+    padding: 10px;
+}
+

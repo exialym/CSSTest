@@ -8,10 +8,6 @@ function Modal(el,options) {
     }
     this.el = el;
     this.cancel = options.cancel ? options.cancel : true;
-    el.querySelector('.modal-close').addEventListener('click',function(e){
-        e.stopPropagation();
-        that.close();
-    });
     if (this.cancel) {
         el.querySelector('.modal').addEventListener('click',function(e){
             e.stopPropagation();
@@ -22,12 +18,26 @@ function Modal(el,options) {
             that.close();
         });
     }
+    el.querySelector('.modal-close').addEventListener('click',function(e){
+        e.stopPropagation();
+        that.close();
+    });
+    el.querySelector('.modal-ok').addEventListener('click',function(e){
+        e.stopPropagation();
+        that.close();
+    });
+    el.querySelector('.modal-cancel').addEventListener('click',function(e){
+        e.stopPropagation();
+        that.close();
+    });
+
 }
-Modal.prototype.pop = function () {
+Modal.prototype.showDialog = function () {
     var that = this;
     var event = document.createEvent("CustomEvent");
     event.initCustomEvent('show',false,true,null);
     this.el.dispatchEvent(event);
+    this.el.querySelector('.modal')
 
     this.el.style.display = 'block';
 
@@ -56,6 +66,7 @@ Modal.prototype.addEvent = function(event,fn) {
         fn.call(this,e);
     });
 };
+
 var a = new Modal(document.querySelector('.modal-overlay'),{cancel:true});
 a.addEvent('shown',function () {
     alert('Model Shown');
@@ -70,5 +81,5 @@ a.addEvent('close',function () {
     alert('Model Will close');
 });
 document.getElementById('modal').addEventListener('click',function(){
-    a.pop();
+    a.showDialog();
 });

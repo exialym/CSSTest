@@ -5,6 +5,9 @@
   <title>Title</title>
 </head>
 <style type="text/css">
+  body {
+    margin:0;
+  }
   .container {
     overflow: auto;
   }
@@ -16,9 +19,10 @@
     background-color: #1f7e9a;
   }
   main{
-    //float: left;
-    //margin-left:100px;
-    //margin-right:200px;
+    position:absolute;
+    top:0;
+    left:100px;
+    right:200px;
     overflow:auto;
     height:300px;
     background-color: #d9534f;
@@ -34,9 +38,10 @@
 </style>
 <body>
 <div class="container">
+  <main>main</main>
   <nav>left nav</nav>
   <div>right nav</div>
-  <main>main</main>
+
 </div>
 
 
